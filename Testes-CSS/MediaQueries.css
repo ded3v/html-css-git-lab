@@ -1,0 +1,27 @@
+/* <!-- Exemplos Media Queries --> */
+
+@media (max-width:600px){
+
+}
+
+/* <!-- Manipulação de elementos --> */
+@media (max-width:768px){
+        .menu{
+            flex-direction: column;
+        }
+
+}
+
+@media (max-width:768px){
+    h1{
+        font-size: 20px;
+    }
+}
+
+/*Esconde elementos*/
+@media (max-width:768px){
+    .banner-lateral{
+        display: none;
+    }
+}
+

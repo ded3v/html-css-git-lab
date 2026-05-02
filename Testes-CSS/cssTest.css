@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    border: 2px solid black;
+    /*Controlando a distribuição horizontal */
+        justify-content: center;
+    /* justify-content: space-between; (alinha os itens com o máximo de espaço entre eles) */
+    /* justify-content: space-around; (alinha os itens com espaço igual entre eles) */
+    /* flex-wrap: wrap; (permite quebrar a linha) */
+    padding: 0 100px;
+    /* margin: 0 auto; */
+}
+
+.caixa {
+    width: 150px;
+    height: 80px;
+    background: orange;
+    border: 1px solid black;
+}
+
+/* flex1 faz com que a caixa ocupe o espaço disponível, dividindo-o igualmente entre as caixas
+no caso aqui ma condição de uma tela mobile, cada caixa ocupa 100% do espaço disponível */
+@media (max-width: 768px){
+    .container {
+        flex-wrap: wrap;
+
+        .caixa {
+            flex: 1;
+            min-width: 100%;
+        }
+    }
+}
