@@ -41,6 +41,38 @@ section {
     border-radius: 8px;
 }
 
+.intro figure {
+    color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 20px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.intro p {
+    color: rgb(0, 0, 0);
+    font-size: 1.6em;
+}
+
+.intro img {
+    width: 30%;
+    border-radius: 8px;
+    align-items: center;
+}
+
+span {
+    color: #569cd6;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Consolas, monospace;
+}
+
+
 .sumario a {
     color: white;
     text-decoration: none;
