@@ -72,6 +72,20 @@ span {
     font-family: Consolas, monospace;
 }
 
+#html span {
+    color: #97f8af;
+    font-family: Consolas, monospace;
+    font-weight: bold;
+}
+
+
+
+#javascript span {
+    color: #d7ba7d;
+    font-family: Consolas, monospace;
+    font-weight: bold;
+}
+
 td:first-child {
     font-family: Consolas, monospace;
     color: #00ff88;

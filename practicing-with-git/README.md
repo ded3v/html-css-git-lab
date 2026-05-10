@@ -1,10 +1,34 @@
-# HTML CSS Git Lab
+# Dev Study Hub
 
-Este repositório é meu laboratório de estudos para praticar:
+Projeto prático criado para estudar desenvolvimento web e versionamento com Git.
+
+## Objetivo
+
+Este repositório serve como laboratório para praticar:
 
 - HTML semântico
 - CSS
 - JavaScript
 - Git
 - GitHub
-- Fluxo profissional de commits
+- Estrutura de projeto
+- README
+- Commits organizados
+
+## Tecnologias usadas
+
+- HTML
+- CSS
+- JavaScript
+- Git
+- GitHub
+
+## Comandos Git praticados
+
+```bash
+git status
+git diff
+git add .
+git commit -m "mensagem"
+git push
+git log --oneline
