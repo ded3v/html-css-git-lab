@@ -72,6 +72,14 @@ span {
     font-family: Consolas, monospace;
 }
 
+td:first-child {
+    font-family: Consolas, monospace;
+    color: #00ff88;
+    background-color: #111;
+    padding: 6px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
 
 .sumario a {
     color: white;
