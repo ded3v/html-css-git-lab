@@ -219,9 +219,42 @@
 
         </section>
 
+ <section>
+      <h2>Checklist de revisão</h2>
 
+      <ul>
+        <li>Entender a diferença entre tag semântica e div.</li>
+        <li>Saber usar header, nav, main, section, article, aside e footer.</li>
+        <li>Entender margin, padding, border e box model.</li>
+        <li>Saber usar git status, git diff, git add, git commit e git push.</li>
+        <li>Entender o papel do README em um projeto.</li>
+      </ul>
+    </section>
 
+   <section id="contato">
+      <h2>Formulário de feedback</h2>
 
+      <form id="form-feedback">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome">
+
+        <label for="modulo">Módulo estudado:</label>
+        <select id="modulo" name="modulo">
+          <option value="">Selecione</option>
+          <option value="html">HTML</option>
+          <option value="css">CSS</option>
+          <option value="javascript">JavaScript</option>
+          <option value="git">Git</option>
+        </select>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem"></textarea>
+
+        <button type="submit">Enviar feedback</button>
+      </form>
+
+      <p id="mensagem-feedback"></p>
+    </section>
 
 
 

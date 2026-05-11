@@ -117,6 +117,30 @@ td:first-child {
     margin-bottom: 8px;
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input,
+select,
+textarea {
+  padding: 10px;
+  font-size: 16px;
+}
+
+textarea {
+  min-height: 100px;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+}
+
+
+
 footer {
     background-color: #222;
     color: white;
