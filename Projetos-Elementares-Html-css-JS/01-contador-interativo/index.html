@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini Projeto 1 - Contador Interativo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Mini Projeto 1 - Contador Interativo</h1>
+    <p>Treino de variáveis, funções, eventos, condicionais e DOM.</p>
+  </header>
+
+  <main>
+
+    <section class="painel-contador">
+      <h2>Contador principal</h2>
+
+      <p class="valor" id="valor-contador">0</p>
+
+      <div class="botoes">
+        <button id="botao-aumentar">Aumentar</button>
+        <button id="botao-diminuir">Diminuir</button>
+        <button id="botao-zerar">Zerar</button>
+        <button id="botao-dobrar">Dobrar</button>
+      </div>
+    </section>
+
+    <section class="painel-controle">
+      <h2>Controle de passo</h2>
+
+      <label for="input-passo">Valor do passo:</label>
+      <input type="number" id="input-passo" value="1">
+
+      <p>
+        Passo atual:
+        <strong id="texto-passo">1</strong>
+      </p>
+    </section>
+
+    <section class="painel-status">
+      <h2>Status do contador</h2>
+
+      <p>
+        Sinal:
+        <strong id="status-sinal">Zero</strong>
+      </p>
+
+      <p>
+        Paridade:
+        <strong id="status-paridade">Par</strong>
+      </p>
+
+      <p>
+        Intensidade:
+        <strong id="status-intensidade">Neutro</strong>
+      </p>
+    </section>
+
+    <section class="painel-debug">
+      <h2>Área de observação</h2>
+
+      <p id="mensagem-debug">
+        Clique nos botões para ver o JavaScript alterar a página.
+      </p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Projeto de prática - HTML, CSS e JavaScript</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

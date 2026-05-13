@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f4f4f4;
+  color: #222;
+}
+
+header,
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  background-color: white;
+  border: 2px solid #ccc;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.valor {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.botoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+button {
+  padding: 10px 16px;
+  cursor: pointer;
+}
+
+input {
+  padding: 8px;
+  font-size: 16px;
+}
+
+.positivo {
+  background-color: #d8ffd8;
+}
+
+.negativo {
+  background-color: #ffd8d8;
+}
+
+.zero {
+  background-color: #eeeeee;
+}
+
+.limite-alto {
+  border-color: green;
+}
+
+.limite-baixo {
+  border-color: red;
+}
+
+#mensagem-debug {
+  font-weight: bold;
+}
